@@ -4,5 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/aksaedu/', // Tambahkan baris ini agar path aset sesuai dengan GitHub Pages
+  // Hapus atau kosongkan 'base' karena ini adalah Organization/User Site utama
 })
